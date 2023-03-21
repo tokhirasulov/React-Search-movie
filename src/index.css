@@ -25,7 +25,6 @@ small {
 .container{
   margin: 0 auto;
   padding: 40px;
-  max-width: 1000px;
 }
 
 .title{
@@ -78,6 +77,7 @@ button:hover{
   .card-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
   }
 }
 
